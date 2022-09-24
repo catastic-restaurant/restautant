@@ -79,6 +79,15 @@ header nav ul {
     position: relative;
 }
 
+header nav ul li.icon {
+    display: none;
+    width: 32px;
+}
+
+header nav ul li.icon img {
+    width: 100%;
+}
+
 header nav ul li a {
     color: #000;
     text-decoration: none;
@@ -148,6 +157,7 @@ header .card-image img:hover {
 
 .hero .container {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
@@ -195,4 +205,83 @@ header .card-image img:hover {
 
 .hero-image img {
     width: 100%;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header h1 {
+        margin-bottom: 2rem;
+        margin: 0 auto;
+    }
+
+    header nav  {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li:not(:first-child) {
+        display: none;
+    }
+
+    header nav ul.responsive-menu li {
+        display: block;
+    }
+
+    header nav ul li.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 18px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    header nav ul li a {
+        font-size: 1.25rem;
+    }
+
+    header nav ul li a.active::before {
+        background-color: transparent;
+    }
+
+    header .card-image {
+        position: absolute;
+        top: 80px;
+        left: 18px;
+    }
+
+    .hero .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-text {
+        padding: 1rem 2rem;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.25rem;
+    }
+
+    .hero .btn {
+        margin-bottom: 2rem;
+    }
+
+    .hero-image {
+        margin-bottom: 2rem;
+    }
 }
