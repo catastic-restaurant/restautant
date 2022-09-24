@@ -137,3 +137,62 @@ header .card-image::after {
 header .card-image img {
     width: 100%;
 }
+
+header .card-image img:hover {
+    opacity: 0.8;
+}
+
+.hero {
+    color: #231e41;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.hero .btn {
+    padding: 1rem 2rem;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    color: #000;
+}
+
+.hero .btn.active {
+    background: #f5c332;
+    color: #000;
+}
+
+.hero .btn:hover {
+    background: #000;
+    color: #f5c332;
+}
+
+.hero .btn:hover::after {
+    transform: translateX(0);
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 600px;
+}
+
+.hero-image img {
+    width: 100%;
+}
