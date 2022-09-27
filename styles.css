@@ -536,3 +536,57 @@ footer .container {
     display: flex;
     padding-top: 30px;
 }
+
+.top-features {
+    display: flex;
+}
+
+.part1 h2 {
+    line-height: 110%;
+    font-size: 40px;
+    letter-spacing: -2px;
+    color: #231e41;
+    font-weight: bold;
+    padding-bottom: 25px;
+
+}
+
+.part1 {
+    width: 50%;
+
+}
+
+.part1 p {
+    color: #6f6f87;
+    font-size: 15px;
+}
+
+.part2 {
+    width: 50%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    display: flex;
+
+}
+
+.part2 button {
+    height: 55px;
+    letter-spacing: 0;
+    font-size: 14px;
+    /* margin-right: 10px; */
+    /* margin-bottom: 10px; */
+    border: 0;
+    padding: 0px 20px;
+    background-color: #f5c332;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.service {
+    width: 50%;
+    background-color: wheat;
+}
