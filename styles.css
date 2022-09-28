@@ -466,7 +466,7 @@ footer .container {
     header .card-image {
         position: absolute;
         top: 100px;
-        left: 18px;
+        left: 48px;
     }
 
     .hero .container {
@@ -525,6 +525,10 @@ footer .container {
 }
 
 @media screen and (max-width: 480px) {
+
+    header .card-image {
+        left: 32px;
+    }
 
     .hero .hero-text {
         padding: 1rem;
