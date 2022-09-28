@@ -483,18 +483,22 @@ footer .container {
 
     .hero h1 {
         font-size: 2.5rem;
+        line-height: 1.2;
     }
 
     .hero p {
+        font-size: 1.15rem;
         max-width: 400px;
-        font-size: 1.25rem;
+        margin: auto;
     }
 
     .hero .btn {
-        margin-bottom: 2rem;
+        display: inline-block;
+        margin: 2rem auto;
     }
 
     .hero-image {
+        max-width: 300px;
         margin-bottom: 2rem;
     }
 
@@ -519,10 +523,10 @@ footer .container {
 
     .hero p {
         font-size: 1.3rem;
+        margin-bottom: 1rem;
     }
 
     .hero .btn {
-        font-size: 1.3rem;
         margin-bottom: 1rem;
         width: fit-content;
         margin: .5rem auto;
