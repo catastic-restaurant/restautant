@@ -521,7 +521,15 @@ footer .container {
         font-size: 1.3rem;
         margin-bottom: 1rem;
         width: fit-content;
-        padding: 1.4rem 2.6rem;
+        margin: .5rem auto;
+    }
+
+    .value-text {
+        padding: 1rem;
+    }
+
+    .ul-numbering {
+        padding-top: 1rem;
     }
 
     .footer-details {
