@@ -167,6 +167,7 @@ header .card-image img:hover {
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    line-height: 4rem;
 }
 
 .hero p {
