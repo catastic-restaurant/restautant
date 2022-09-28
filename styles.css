@@ -408,6 +408,10 @@ footer .container {
         font-size: 1.25rem;
     }
 
+    .value-thumbnail img {
+        width: 200%;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
