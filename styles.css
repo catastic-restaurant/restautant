@@ -535,5 +535,9 @@ footer .container {
     }
 
     .footer-social-media {
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 2rem;
+        flex-wrap: wrap;
     }
 }
