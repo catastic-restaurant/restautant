@@ -575,7 +575,6 @@ footer .container {
 
 .footer-social-media {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     row-gap: .5rem;
     margin-top: 1rem;
