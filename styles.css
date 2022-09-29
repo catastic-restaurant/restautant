@@ -574,7 +574,7 @@ footer .container {
 
 .footer-social-media {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     row-gap: .5rem;
     margin-top: 1rem;
     text-align: center;
