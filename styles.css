@@ -223,7 +223,7 @@ header .card-image img:hover {
 }
 
 .value-thumbnail img {
-    width: 150%;
+    width: 100%;
 }
 
 .values {
@@ -254,7 +254,6 @@ header .card-image img:hover {
     letter-spacing: -1px;
     padding-bottom: 10px;
     font-weight: bold;
-
 }
 
 .value-text-p {
@@ -285,23 +284,120 @@ header .card-image img:hover {
     padding-top: 30px;
 }
 
+.top-features {
+    display: flex;
+}
 
-/* hala's part */
+.part1 h2 {
+    line-height: 110%;
+    font-size: 40px;
+    letter-spacing: -2px;
+    color: #231e41;
+    font-weight: bold;
+    padding-bottom: 25px;
 
-.popular-dishes, .chefs{
+}
+
+.part1 {
+    width: 50%;
+
+}
+
+.part1 p {
+    color: #6f6f87;
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+
+.part2 {
+    width: 50%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.part2 button {
+    height: 55px;
+    letter-spacing: 0;
+    font-size: 14px;
+    /* margin-right: 10px; */
+    /* margin-bottom: 10px; */
+    border: 0;
+    padding-right: 20px;
+    background-color: #f5c332;
+}
+
+.part2 span,
+.popular-dishes-button button {
+    font-weight: 700;
+    color: #231e41;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.service {
+    width: 50%;
+}
+
+.service-div {
+    margin: 15px;
+    padding: 30px;
+    background-color: #f9fafc;
+    display: flex;
+}
+
+.service-icon {
+    padding-right: 10px;
+}
+
+.service-icon img {
+    width: 60px;
+}
+
+.service-text {
+    padding-left: 30px;
+}
+
+.service-text h2 {
+    line-height: 120%;
+    font-size: 22px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.part2 button {
+    display: flex;
+    align-items: center;
+}
+
+.part2 button span {
+    padding-left: 10px;
+}
+
+.popular-dishes,
+.chefs {
     margin-top: 30px;
 }
 
-.dishes-container, .chefs-container{
+.dishes-container,
+.chefs-container {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-wrap: nowrap;
-   justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.popular-dishes h2, .chefs h2{
-    color:#231E41;
+.popular-dishes h2,
+.chefs h2 {
+    color: #231E41;
     font-family: Rubik, sans-serif;
     font-size: 40px;
     line-height: 44px;
@@ -310,70 +406,65 @@ header .card-image img:hover {
 
 }
 
-.popular-dishes p, .chefs p{
-    color:#6F6F87;
-    font-family :Rubik, sans-serif;
+.popular-dishes p,
+.chefs p {
+    color: #6F6F87;
+    font-family: Rubik, sans-serif;
     font-size: 15px;
     line-height: 22.5px;
     letter-spacing: 0.48px;
     font-weight: 400;
     margin: 25px 0 30px 0;
-    max-width: 300px;
-    
+    max-width: 290px;
 }
 
-.popular-dishes-button{
+.popular-dishes-button {
     display: flex;
     justify-content: space-between;
 }
 
-.popular-dishes-button button{
+.popular-dishes-button button {
     height: 50px;
     width: 200px;
-    color:rgb(35,30,65);
-    font-family :Rubik, sans-serif;
+    color: rgb(35, 30, 65);
+    font-family: Rubik, sans-serif;
     background-color: #f5c332;
     border: 0;
     text-align: center;
     font-size: 14px;
 }
 
-.popular-dishes-button button i{
-    margin: 10px;
-    color:rgb(35,30,65);
+.popular-dishes-button button i,
+.part2 button i {
+    margin-left: 10px;
+    color: rgb(35, 30, 65);
 }
 
-.popular-dishes-button button:hover{
+.popular-dishes-button button:hover {
     background-color: #fdd14b;
 }
 
-.popular-dish, .chef{
-    margin-right: 10px;
-}
-
-
-.popular-dish-image{
+.popular-dish-image {
     border-color: #6F6F87;
     border-radius: 2px;
 }
 
-.popular-dish-image img{
-    max-height: 300px;
-    max-width: 300px;
-    
+.popular-dish-image img {
+    max-height: 290px;
+    max-width: 290px;
+
 }
 
-.popular-dish-text{
+.popular-dish-text {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
 }
 
-
-.popular-dish-text h3{
-    background-color: rgb(200, 202, 204);
-    color:rgb(35,30,65);
-    font-family :Rubik, sans-serif;
+.popular-dish-text h3 {
+    background-color: #F2F3F5;
+    color: rgb(35, 30, 65);
+    font-family: Rubik, sans-serif;
     font-weight: 500;
     font-size: 15px;
     padding: 15px;
@@ -382,53 +473,47 @@ header .card-image img:hover {
     grid-column-end: 3;
 }
 
-.popular-dish-text .description{
-    font-family :Rubik, sans-serif;
-    color:#6F6F87;
+.popular-dish-text .description {
+    font-family: Rubik, sans-serif;
+    color: #6F6F87;
     grid-column-start: 1;
     grid-column-end: 4;
 }
 
-.popular-dish-text .price{
+.popular-dish-text .price {
     background-color: #f5c332;
-    font-family :Rubik, sans-serif;
+    font-family: Rubik, sans-serif;
     margin: 0;
     padding: 15px;
-    color:rgb(35,30,65);
+    color: rgb(35, 30, 65);
 }
 
-
-.chef-image img{
-    height: 400px;
-    width: 300px;
+.chef-image img {
+    height: 290px;
+    width: 290px;
 }
 
-
-.chef-text h3{
-    font-family :Rubik, sans-serif;
-    color:rgb(35,30,65);
+.chef-text h3 {
+    font-family: Rubik, sans-serif;
+    color: rgb(35, 30, 65);
     text-align: center;
     font-size: 25px;
     margin: 10px;
 }
 
-.social-media{
-text-align: center;
+.social-media {
+    text-align: center;
 }
 
-.social-media i{
-color: rgb(35,30,65);
-font-size: 20px;
-margin: 3px;
+.social-media i {
+    color: rgb(35, 30, 65);
+    font-size: 20px;
+    margin: 3px;
 }
 
-
-.social-media a :hover{
-color: #f5c332;
+.social-media a :hover {
+    color: #f5c332;
 }
-
-/* end hala's part */
-
 
 footer {
     background: #f2f3f5;
@@ -446,6 +531,7 @@ footer .container {
 .footer-details {
     display: flex;
     justify-content: space-between;
+    column-gap: 2rem;
 }
 
 .footer-logo {
@@ -524,7 +610,7 @@ footer .container {
 }
 
 .download-app {
-    padding: 20px 0;
+    padding: 50px 0;
     background: linear-gradient(#fff 0%, #F2F3F5 100%);
 }
 
@@ -610,7 +696,11 @@ footer .container {
     }
 
     .value-thumbnail img {
-        width: 200%;
+        width: 150%;
+    }
+
+    .chefs-container {
+        row-gap: 3rem;
     }
 
 }
@@ -720,6 +810,25 @@ footer .container {
         margin: 2rem auto;
     }
 
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        width: 90%;
+    }
+
+    .top-features {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+    }
+
+    .part1 {
+        width: 90%;
+    }
+
     .download-app .container {
         flex-direction: column;
     }
@@ -746,30 +855,31 @@ footer .container {
         flex-direction: column;
         align-items: center;
     }
-    
-        /* hala's part */
 
-    .dishes-container, .chefs-container{
+    .dishes-container,
+    .chefs-container {
         flex-direction: column;
         align-items: center;
     }
 
-    .popular-dish-image, .popular-dish-text{
+    .popular-dish-image,
+    .popular-dish-text {
         text-align: center;
     }
 
-    .popular-dishes h2, p, .chefs h2, p{
+    .popular-dishes h2,
+    .popular-dishes p,
+    .chefs h2,
+    .chefs p {
         text-align: center;
     }
 
-    .popular-dishes-button{
+    .popular-dishes-button {
         flex-direction: column;
         align-items: center;
         margin-bottom: 30px;
     }
 
-    /* end hala's part */
-    
 }
 
 @media screen and (max-width: 480px) {
