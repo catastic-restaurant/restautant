@@ -558,6 +558,7 @@ footer .container {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    font-family: Rubik, sans-serif;
 }
 
 .footer-details p a {
@@ -569,6 +570,7 @@ footer .container {
     font-size: 1rem;
     font-weight: 400;
     margin-top: 1rem;
+    font-family: Rubik, sans-serif;
 }
 
 .footer-social-media {
@@ -577,6 +579,15 @@ footer .container {
     justify-content: space-between;
     row-gap: .5rem;
     margin-top: 1rem;
+    text-align: center;
+}
+
+.footer-social-media a{
+    color: #231E41;
+}
+
+.footer-social-media a:hover{
+    color:#f5c332;
 }
 
 .contact {
