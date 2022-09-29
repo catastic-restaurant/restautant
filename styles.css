@@ -441,7 +441,8 @@ header .card-image img:hover {
 }
 
 .popular-dishes-button button:hover {
-    background-color: #fdd14b;
+    background: #000;
+    color: #f5c332;
 }
 
 .popular-dish-image {
