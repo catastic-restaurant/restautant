@@ -91,6 +91,8 @@ header nav ul li.icon img {
 header nav ul li a {
     color: #000;
     text-decoration: none;
+    font-family: Rubik, sans-serif;
+    font-weight: bold;
 }
 
 header nav ul li a:hover {
